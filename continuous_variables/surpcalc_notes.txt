@@ -1,0 +1,77 @@
+# calculate the q value of the first phoneme, p - with VOT being 50% p and 50% b
+
+pfreq = 583905
+bfreq = 806177
+
+total_freq = 583905 + 806177 = 1390082
+
+P(p*|v) = 583905 / 1390082 = 0.42
+P(b*|v) = 806177 / 1390082 = 0.58
+
+P(v|p) = 0.5
+P(v|b) = 0.5
+
+P(p*)P(v|p) = 0.42 * 0.5 = 0.21
+P(b*)P(v|b)) = 0.58 * 0.5 = 0.29
+(P(p*)P(v|p) / (P(p*)P(v|p) + P(b*)P(v|b)) = 0.21 / (0.21 + 0.29) = 0.42
+
+q = 0.42 = P(p*|v)
+
+
+# calculate the q value of the second phoneme, a - with VOT being 50% p and 50% b
+
+pafreq = 107022
+bafreq = 74784
+
+total_freq = 107022 + 74784 = 181806
+
+P(pa*|va) = 107022 / 181806 = 0.59
+P(ba*|va) = 74784 / 181806 = 0.41
+
+P(v|pa) = 0.5 # is this right?? because 'a' influences the likelihood of v being 'p' or 'b', right?
+P(v|ba) = 0.5
+
+P(pa*)P(va|pa) = 0.59 * 0.5 = 0.295
+P(ba*)P(va|ba)) = 0.41 * 0.5 = 0.205
+(P(pa*)P(va|pa) / (P(pa*)P(va|pa) + P(ba*)P(va|ba)) = 0.295 / (0.205 + 0.295) = 0.59
+
+q = 0.59 = P(pa*|va) # hm.. in the 50% VOT cases, should q = the weighted probability of p?
+
+
+# calculate the q value of the second phoneme, a - with VOT being 75% p and 25% b
+
+pafreq = 107022
+bafreq = 74784
+
+total_freq = 107022 + 74784 = 181806
+
+P(pa*|va) = 107022 / 181806 = 0.59
+P(ba*|va) = 74784 / 181806 = 0.41
+
+P(v|pa) = 0.75
+P(v|ba) = 0.25
+
+P(pa*)P(va|pa) = 0.59 * 0.75 = 0.4425
+P(ba*)P(va|b)) = 0.41 * 0.25 = 0.1025
+(P(pa*)P(va|p) / (P(pa*)P(va|p) + P(ba*)P(va|ba)) = 0.4425 / (0.4425 + 0.1025) = 0.81192
+
+q = 0.81
+
+
+# calculate the q at a POD using a 75-25 split
+
+p_pod_freq = 1000
+b_pod_freq = 0
+
+total_freq = 1000 + 0 = 1000
+
+P(pa*|va) = 1000 / 1000 = 1
+P(ba*|va) = 0 / 1000 = 0
+
+P(pa*)P(va|pa) = 1 * 0.75 = 0.75
+P(ba*)P(va|ba)) = 0 * 0.25 = 0
+(P(pa*)P(va|pa) / (P(pa*)P(va|pa) + P(ba*)P(va|ba)) = 0.75 / (0.75 + 0) = 1
+
+q = 1 # yes! this is what we wanted to see here for the POD cases - so that the q is weighted by the VOT only.
+
+

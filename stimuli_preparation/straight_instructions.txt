@@ -1,0 +1,47 @@
+notes - straight.
+
+- open “MorphingMenu” application
+
+- click “continuum” and change directory to where the sounds are. then close this and load waveform A and load waveform B.
+
+- Analyze A, f0/f0 structure extraction
+
+- Calculate
+
+- clean up and re-calcualte and finish/upload.
+
+- aperiodityu extract
+
+- straight spectrum
+
+- finish/upload
+
+- do the same for B
+
+- play both items
+
+- open anchoring interface
+
+- calculate distance matrix
+
+- add anchors by clicking on the white line that splits the diamond
+
+- move the anchors so that places in word A line with places in word B (onset/offset of phonemes, etc.)
+
+- hold alt and hover mouse over the white circles, then left-click. this will pull up waveforms. hit points in the waveforms that seems close to each other to get equivaltn poimnts in each to mark f1 with f1. can fix these with different points to make it more accurate
+
+- update freq anchor, once this is done, close
+
+- save the substraight, and then load again to make the other options available.
+
+- “edit morphing rate”
+
+- can move all anchors or just one at a time by changing “binding attributes” or “independent attributes”
+
+- then to play it, click “set up morphing rate” and then “synthesise morphed speech”
+	
+- can change aspiration and the percent that it is one sound or another
+
+- create a substrate of each side of the continuum by clicking “save morphing substrate”
+
+- click “continuum”, then set the number of steps and the dir you want the files to be saved. Then “generate continuum” will ask you to upload each substrate file in turn. there’s a weird thing where it may not find you files, so you may need to quit and then open MorphingMenu again and then load up the continuum. 
