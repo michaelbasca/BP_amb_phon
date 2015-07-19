@@ -1,0 +1,31 @@
+# how to extract first consonant vowel (CV) sequence:
+
+1) Drag stimulus001-stimulus011 into the Praat icon. You should see the 11 items appear as "Objects"
+
+2) Click on one of the stimulus objects, and then click "Annotate -" on the left menu. Select "To TextGrid..."
+
+3) In the box that appears, type "CV" in both the top and bottom input editors, then hit OK
+
+4) In the Praat Objects menu, highlight the TextGrid and one of the stimulus objects together, and then click "View & Edit"
+
+5) You should see the sound wave appear. Add a tier to the annotation by clicking Tier > Add interval tier > OK (no need to change position or add a name)
+
+6) In the white box at the top that contains the spectogram of the sound, click to mark the CV boundary. This may take a few attempts. To hear what you have selected, click on the light brown box, third from the bottom, that tells you how many milliseconds long your selection is
+
+7) Once happy with where you have marked the CV boundary, click Boundary > Add on selected tier. You will see another box appear, with a number "2" by the side, and a blue line where you marked the boundary
+
+8) Click on the left hand side of the blue boundary, so that the left portion becomes yellow. Here type "CV".
+
+9) Save just this left portion of the TextGrid by selecting File > Extract selected TextGrid (time from 0). You should then see another TextGrid Object appear in the Praat Objects menu
+
+10) Save the TextGrid to disk by clicking File > Save TextGrid as text file. Name the file as the number of the item, underscore, the target phoneme and then the deviant phoneme (e.g., 1_TP.txt, 1_PT.txt). Then, close the spectogram window
+
+11) In the Praat Objects menu, select the new TextGrid object and one of the Sound stimulus items. Again, click "View & Edit" to pull up the spectogram window. Now the spectogram that appears should just be up until the boundary you marked in the previous steps
+
+12) Play the sound to make sure it is what you expected by clikcing "Visible part x seconds"
+
+13) Save the sound by clicking on where the text says CV (the box should turn yellow), then File > Save selected sound as .wav file
+
+14) The file name should be the name of the standard sound (e.g., pai, pah, poh, pee...), then and underscore and then the name of the deviant sound (e.g., tai, tah, toh, tee...), then the number of the continuum. For example: pai_tai_1.wav, pah_tah_2.wav, poh_toh_3.wav, tee_pee_4.wav
+
+15) Save all 11 versions of the sound, making sure to use the correct numbering of the continuum
