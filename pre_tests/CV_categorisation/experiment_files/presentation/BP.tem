@@ -1,0 +1,59 @@
+# template for BP
+
+# present options 500ms before sound begins
+trial {
+    trial_duration = 700;
+	 stimulus_event {
+
+picture {
+        text blank;
+		  x = 0; y = 0;
+    };
+
+	time = 0;
+
+};
+
+    stimulus_event {
+
+picture {
+        text $options;
+		  x = 0; y = 0;
+    };
+
+	time = 200;
+
+};
+};
+
+
+# then sound begins, and options remain onscreen
+trial {
+	 trial_type = first_response;
+    trial_duration = forever;
+	 
+
+   stimulus_event {
+
+sound {
+        wavefile $target;
+    };
+
+	time = 0;
+	code = "$target; $block";
+	port_code = $trigger;
+
+
+};
+
+   stimulus_event {
+
+picture {
+        text $options;
+		  x = 0; y = 0;
+    };	
+
+	time = 0;
+
+};	
+};
