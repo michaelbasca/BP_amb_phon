@@ -1,0 +1,286 @@
+<PsychoPy2experiment version="1.82.01" encoding="utf-8">
+  <Settings>
+    <Param name="Show mouse" val="False" valType="bool" updates="None"/>
+    <Param name="Data filename" val="'data/%s_%s_%s' %(expInfo['participant'], expName, expInfo['date'])" valType="code" updates="None"/>
+    <Param name="Monitor" val="testMonitor" valType="str" updates="None"/>
+    <Param name="Enable Escape" val="True" valType="bool" updates="None"/>
+    <Param name="color" val="$[0,0,0]" valType="str" updates="None"/>
+    <Param name="Window size (pixels)" val="[1024, 768]" valType="code" updates="None"/>
+    <Param name="Full-screen window" val="True" valType="bool" updates="None"/>
+    <Param name="colorSpace" val="rgb" valType="str" updates="None"/>
+    <Param name="Experiment info" val="{'participant':'', 'session':'001'}" valType="code" updates="None"/>
+    <Param name="Save csv file" val="False" valType="bool" updates="None"/>
+    <Param name="Show info dlg" val="True" valType="bool" updates="None"/>
+    <Param name="Save wide csv file" val="True" valType="bool" updates="None"/>
+    <Param name="Save psydat file" val="True" valType="bool" updates="None"/>
+    <Param name="expName" val="bp_cv_pretest" valType="str" updates="None"/>
+    <Param name="logging level" val="exp" valType="code" updates="None"/>
+    <Param name="blendMode" val="avg" valType="str" updates="None"/>
+    <Param name="Save excel file" val="False" valType="bool" updates="None"/>
+    <Param name="Units" val="use prefs" valType="str" updates="None"/>
+    <Param name="Save log file" val="True" valType="bool" updates="None"/>
+    <Param name="Screen" val="1" valType="num" updates="None"/>
+  </Settings>
+  <Routines>
+    <Routine name="trial">
+      <TextComponent name="leftPhoneme">
+        <Param name="opacity" val="1" valType="code" updates="constant"/>
+        <Param name="colorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="name" val="leftPhoneme" valType="code" updates="None"/>
+        <Param name="wrapWidth" val="" valType="code" updates="constant"/>
+        <Param name="color" val="white" valType="str" updates="constant"/>
+        <Param name="text" val="$optionLeft" valType="str" updates="set every repeat"/>
+        <Param name="stopVal" val="" valType="code" updates="constant"/>
+        <Param name="durationEstim" val="2" valType="code" updates="None"/>
+        <Param name="pos" val="[-0.5, 0]" valType="code" updates="constant"/>
+        <Param name="flip" val="" valType="str" updates="constant"/>
+        <Param name="startEstim" val="" valType="code" updates="None"/>
+        <Param name="units" val="from exp settings" valType="str" updates="None"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="ori" val="0" valType="code" updates="constant"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="startVal" val="0.5" valType="code" updates="None"/>
+        <Param name="font" val="Arial" valType="str" updates="constant"/>
+        <Param name="letterHeight" val="0.2" valType="code" updates="constant"/>
+      </TextComponent>
+      <StaticComponent name="ISI">
+        <Param name="code" val="" valType="code" updates="None"/>
+        <Param name="name" val="ISI" valType="code" updates="None"/>
+        <Param name="stopVal" val="0.5" valType="code" updates="constant"/>
+        <Param name="durationEstim" val="" valType="code" updates="None"/>
+        <Param name="startEstim" val="" valType="code" updates="None"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="startVal" val="0.0" valType="code" updates="None"/>
+      </StaticComponent>
+      <TextComponent name="rightPhoneme">
+        <Param name="opacity" val="1" valType="code" updates="constant"/>
+        <Param name="colorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="name" val="rightPhoneme" valType="code" updates="None"/>
+        <Param name="wrapWidth" val="" valType="code" updates="constant"/>
+        <Param name="color" val="white" valType="str" updates="constant"/>
+        <Param name="text" val="$optionRight" valType="str" updates="set every repeat"/>
+        <Param name="stopVal" val="" valType="code" updates="constant"/>
+        <Param name="durationEstim" val="2" valType="code" updates="None"/>
+        <Param name="pos" val="[0.5, 0]" valType="code" updates="constant"/>
+        <Param name="flip" val="" valType="str" updates="constant"/>
+        <Param name="startEstim" val="" valType="code" updates="None"/>
+        <Param name="units" val="from exp settings" valType="str" updates="None"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="ori" val="0" valType="code" updates="constant"/>
+        <Param name="stopType" val="condition" valType="str" updates="None"/>
+        <Param name="startVal" val="0.5" valType="code" updates="None"/>
+        <Param name="font" val="Arial" valType="str" updates="constant"/>
+        <Param name="letterHeight" val="0.2" valType="code" updates="constant"/>
+      </TextComponent>
+      <SoundComponent name="cvSound">
+        <Param name="sound" val="$wavFile" valType="str" updates="set every repeat"/>
+        <Param name="volume" val="1" valType="code" updates="constant"/>
+        <Param name="name" val="cvSound" valType="code" updates="None"/>
+        <Param name="stopVal" val="" valType="code" updates="constant"/>
+        <Param name="durationEstim" val="1.5" valType="code" updates="None"/>
+        <Param name="startEstim" val="" valType="code" updates="None"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="startVal" val="1" valType="code" updates="None"/>
+      </SoundComponent>
+      <KeyboardComponent name="trialResp">
+        <Param name="correctAns" val="" valType="str" updates="constant"/>
+        <Param name="storeCorrect" val="False" valType="bool" updates="constant"/>
+        <Param name="name" val="trialResp" valType="code" updates="None"/>
+        <Param name="stopVal" val="" valType="code" updates="constant"/>
+        <Param name="durationEstim" val="1.5" valType="code" updates="None"/>
+        <Param name="forceEndRoutine" val="True" valType="bool" updates="constant"/>
+        <Param name="startEstim" val="" valType="code" updates="None"/>
+        <Param name="discard previous" val="True" valType="bool" updates="constant"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="allowedKeys" val="'1','2'" valType="code" updates="constant"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="startVal" val="1" valType="code" updates="None"/>
+        <Param name="store" val="last key" valType="str" updates="constant"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="expEnd">
+      <TextComponent name="endText">
+        <Param name="opacity" val="1" valType="code" updates="constant"/>
+        <Param name="colorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="name" val="endText" valType="code" updates="None"/>
+        <Param name="wrapWidth" val="" valType="code" updates="constant"/>
+        <Param name="color" val="white" valType="str" updates="constant"/>
+        <Param name="text" val="The experiment is now over.&#10;&#10;Thank you for your participation.&#10;&#10;The experimentor will be with you soon." valType="str" updates="constant"/>
+        <Param name="stopVal" val="" valType="code" updates="constant"/>
+        <Param name="durationEstim" val="10" valType="code" updates="None"/>
+        <Param name="pos" val="[0, 0]" valType="code" updates="constant"/>
+        <Param name="flip" val="" valType="str" updates="constant"/>
+        <Param name="startEstim" val="" valType="code" updates="None"/>
+        <Param name="units" val="from exp settings" valType="str" updates="None"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="ori" val="0" valType="code" updates="constant"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="startVal" val="0.0" valType="code" updates="None"/>
+        <Param name="font" val="Arial" valType="str" updates="constant"/>
+        <Param name="letterHeight" val="0.1" valType="code" updates="constant"/>
+      </TextComponent>
+      <KeyboardComponent name="endResp">
+        <Param name="correctAns" val="" valType="str" updates="constant"/>
+        <Param name="storeCorrect" val="False" valType="bool" updates="constant"/>
+        <Param name="name" val="endResp" valType="code" updates="None"/>
+        <Param name="stopVal" val="" valType="code" updates="constant"/>
+        <Param name="durationEstim" val="10" valType="code" updates="None"/>
+        <Param name="forceEndRoutine" val="True" valType="bool" updates="constant"/>
+        <Param name="startEstim" val="" valType="code" updates="None"/>
+        <Param name="discard previous" val="True" valType="bool" updates="constant"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="allowedKeys" val="'q'" valType="code" updates="constant"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="startVal" val="0.0" valType="code" updates="None"/>
+        <Param name="store" val="last key" valType="str" updates="constant"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="blockBreak">
+      <TextComponent name="isBlock">
+        <Param name="opacity" val="1" valType="code" updates="constant"/>
+        <Param name="colorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="name" val="isBlock" valType="code" updates="None"/>
+        <Param name="wrapWidth" val="" valType="code" updates="constant"/>
+        <Param name="color" val="white" valType="str" updates="constant"/>
+        <Param name="text" val="This is block:" valType="str" updates="constant"/>
+        <Param name="stopVal" val="" valType="code" updates="constant"/>
+        <Param name="durationEstim" val="10" valType="code" updates="None"/>
+        <Param name="pos" val="[0, 0.1]" valType="code" updates="constant"/>
+        <Param name="flip" val="" valType="str" updates="constant"/>
+        <Param name="startEstim" val="" valType="code" updates="None"/>
+        <Param name="units" val="from exp settings" valType="str" updates="None"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="ori" val="0" valType="code" updates="constant"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="startVal" val="0.0" valType="code" updates="None"/>
+        <Param name="font" val="Arial" valType="str" updates="constant"/>
+        <Param name="letterHeight" val="0.1" valType="code" updates="constant"/>
+      </TextComponent>
+      <TextComponent name="blockText">
+        <Param name="opacity" val="1" valType="code" updates="constant"/>
+        <Param name="colorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="name" val="blockText" valType="code" updates="None"/>
+        <Param name="wrapWidth" val="" valType="code" updates="constant"/>
+        <Param name="color" val="white" valType="str" updates="constant"/>
+        <Param name="text" val="$blockNo" valType="str" updates="set every frame"/>
+        <Param name="stopVal" val="" valType="code" updates="constant"/>
+        <Param name="durationEstim" val="10" valType="code" updates="None"/>
+        <Param name="pos" val="[0, 0]" valType="code" updates="constant"/>
+        <Param name="flip" val="" valType="str" updates="constant"/>
+        <Param name="startEstim" val="" valType="code" updates="None"/>
+        <Param name="units" val="from exp settings" valType="str" updates="None"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="ori" val="0" valType="code" updates="constant"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="startVal" val="0.0" valType="code" updates="None"/>
+        <Param name="font" val="Arial" valType="str" updates="constant"/>
+        <Param name="letterHeight" val="0.1" valType="code" updates="constant"/>
+      </TextComponent>
+      <TextComponent name="pressCont">
+        <Param name="opacity" val="1" valType="code" updates="constant"/>
+        <Param name="colorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="name" val="pressCont" valType="code" updates="None"/>
+        <Param name="wrapWidth" val="" valType="code" updates="constant"/>
+        <Param name="color" val="white" valType="str" updates="constant"/>
+        <Param name="text" val="Press any button to continue" valType="str" updates="constant"/>
+        <Param name="stopVal" val="" valType="code" updates="constant"/>
+        <Param name="durationEstim" val="10" valType="code" updates="None"/>
+        <Param name="pos" val="[0, -0.1]" valType="code" updates="constant"/>
+        <Param name="flip" val="" valType="str" updates="constant"/>
+        <Param name="startEstim" val="" valType="code" updates="None"/>
+        <Param name="units" val="from exp settings" valType="str" updates="None"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="ori" val="0" valType="code" updates="constant"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="startVal" val="0.0" valType="code" updates="None"/>
+        <Param name="font" val="Arial" valType="str" updates="constant"/>
+        <Param name="letterHeight" val="0.1" valType="code" updates="constant"/>
+      </TextComponent>
+      <KeyboardComponent name="blockResp">
+        <Param name="correctAns" val="" valType="str" updates="constant"/>
+        <Param name="storeCorrect" val="False" valType="bool" updates="constant"/>
+        <Param name="name" val="blockResp" valType="code" updates="None"/>
+        <Param name="stopVal" val="" valType="code" updates="constant"/>
+        <Param name="durationEstim" val="10" valType="code" updates="None"/>
+        <Param name="forceEndRoutine" val="True" valType="bool" updates="constant"/>
+        <Param name="startEstim" val="" valType="code" updates="None"/>
+        <Param name="discard previous" val="True" valType="bool" updates="constant"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="allowedKeys" val="'y','n','left','right','space','1','2'" valType="code" updates="constant"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="startVal" val="0.0" valType="code" updates="None"/>
+        <Param name="store" val="last key" valType="str" updates="constant"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="instructions">
+      <TextComponent name="instructionText">
+        <Param name="opacity" val="1" valType="code" updates="constant"/>
+        <Param name="colorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="name" val="instructionText" valType="code" updates="None"/>
+        <Param name="wrapWidth" val="" valType="code" updates="constant"/>
+        <Param name="color" val="white" valType="str" updates="constant"/>
+        <Param name="text" val="These are the instructions" valType="str" updates="constant"/>
+        <Param name="stopVal" val="" valType="code" updates="constant"/>
+        <Param name="durationEstim" val="10" valType="code" updates="None"/>
+        <Param name="pos" val="[0, 0]" valType="code" updates="constant"/>
+        <Param name="flip" val="" valType="str" updates="constant"/>
+        <Param name="startEstim" val="" valType="code" updates="None"/>
+        <Param name="units" val="from exp settings" valType="str" updates="None"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="ori" val="0" valType="code" updates="constant"/>
+        <Param name="stopType" val="condition" valType="str" updates="None"/>
+        <Param name="startVal" val="0.0" valType="code" updates="None"/>
+        <Param name="font" val="Arial" valType="str" updates="constant"/>
+        <Param name="letterHeight" val="0.1" valType="code" updates="constant"/>
+      </TextComponent>
+      <KeyboardComponent name="instructionResp">
+        <Param name="correctAns" val="" valType="str" updates="constant"/>
+        <Param name="storeCorrect" val="False" valType="bool" updates="constant"/>
+        <Param name="name" val="instructionResp" valType="code" updates="None"/>
+        <Param name="stopVal" val="" valType="code" updates="constant"/>
+        <Param name="durationEstim" val="" valType="code" updates="None"/>
+        <Param name="forceEndRoutine" val="True" valType="bool" updates="constant"/>
+        <Param name="startEstim" val="" valType="code" updates="None"/>
+        <Param name="discard previous" val="True" valType="bool" updates="constant"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="allowedKeys" val="'enter','1','2'" valType="code" updates="constant"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="startVal" val="0.0" valType="code" updates="None"/>
+        <Param name="store" val="last key" valType="str" updates="constant"/>
+      </KeyboardComponent>
+    </Routine>
+  </Routines>
+  <Flow>
+    <Routine name="instructions"/>
+    <LoopInitiator loopType="TrialHandler" name="block1">
+      <Param name="conditionsFile" val="stimConditions.xlsx" valType="str" updates="None"/>
+      <Param name="name" val="block1" valType="code" updates="None"/>
+      <Param name="isTrials" val="True" valType="bool" updates="None"/>
+      <Param name="random seed" val="" valType="code" updates="None"/>
+      <Param name="loopType" val="random" valType="str" updates="None"/>
+      <Param name="nReps" val="1" valType="code" updates="None"/>
+      <Param name="endPoints" val="[0, 1]" valType="num" updates="None"/>
+      <Param name="conditions" val="[{u'idx': 1, u'optionRight': u'T', u'blockNo': 1, u'optionLeft': u'P', u'stimNo': 1, u'continuumNo': 1, u'wavFile': u'/Users/lauragwilliams/Documents/experiments/b_p/BP_amb_phon/pre_tests/CV_categorisation/experiment_files/stimuli_wav/1_pai_tai_1.wav'}, {u'idx': 22, u'optionRight': u'P', u'blockNo': 1, u'optionLeft': u'T', u'stimNo': 2, u'continuumNo': 11, u'wavFile': u'/Users/lauragwilliams/Documents/experiments/b_p/BP_amb_phon/pre_tests/CV_categorisation/experiment_files/stimuli_wav/2_toh_poh_11.wav'}, {u'idx': 2, u'optionRight': u'T', u'blockNo': 2, u'optionLeft': u'P', u'stimNo': 1, u'continuumNo': 2, u'wavFile': u'/Users/lauragwilliams/Documents/experiments/b_p/BP_amb_phon/pre_tests/CV_categorisation/experiment_files/stimuli_wav/1_pai_tai_2.wav'}, {u'idx': 12, u'optionRight': u'P', u'blockNo': 2, u'optionLeft': u'T', u'stimNo': 2, u'continuumNo': 1, u'wavFile': u'/Users/lauragwilliams/Documents/experiments/b_p/BP_amb_phon/pre_tests/CV_categorisation/experiment_files/stimuli_wav/2_toh_poh_1.wav'}, {u'idx': 3, u'optionRight': u'T', u'blockNo': 3, u'optionLeft': u'P', u'stimNo': 1, u'continuumNo': 3, u'wavFile': u'/Users/lauragwilliams/Documents/experiments/b_p/BP_amb_phon/pre_tests/CV_categorisation/experiment_files/stimuli_wav/1_pai_tai_3.wav'}, {u'idx': 13, u'optionRight': u'P', u'blockNo': 3, u'optionLeft': u'T', u'stimNo': 2, u'continuumNo': 2, u'wavFile': u'/Users/lauragwilliams/Documents/experiments/b_p/BP_amb_phon/pre_tests/CV_categorisation/experiment_files/stimuli_wav/2_toh_poh_2.wav'}, {u'idx': 4, u'optionRight': u'T', u'blockNo': 4, u'optionLeft': u'P', u'stimNo': 1, u'continuumNo': 4, u'wavFile': u'/Users/lauragwilliams/Documents/experiments/b_p/BP_amb_phon/pre_tests/CV_categorisation/experiment_files/stimuli_wav/1_pai_tai_4.wav'}, {u'idx': 14, u'optionRight': u'P', u'blockNo': 4, u'optionLeft': u'T', u'stimNo': 2, u'continuumNo': 3, u'wavFile': u'/Users/lauragwilliams/Documents/experiments/b_p/BP_amb_phon/pre_tests/CV_categorisation/experiment_files/stimuli_wav/2_toh_poh_3.wav'}, {u'idx': 5, u'optionRight': u'T', u'blockNo': 5, u'optionLeft': u'P', u'stimNo': 1, u'continuumNo': 5, u'wavFile': u'/Users/lauragwilliams/Documents/experiments/b_p/BP_amb_phon/pre_tests/CV_categorisation/experiment_files/stimuli_wav/1_pai_tai_5.wav'}, {u'idx': 15, u'optionRight': u'P', u'blockNo': 5, u'optionLeft': u'T', u'stimNo': 2, u'continuumNo': 4, u'wavFile': u'/Users/lauragwilliams/Documents/experiments/b_p/BP_amb_phon/pre_tests/CV_categorisation/experiment_files/stimuli_wav/2_toh_poh_4.wav'}, {u'idx': 6, u'optionRight': u'T', u'blockNo': 6, u'optionLeft': u'P', u'stimNo': 1, u'continuumNo': 6, u'wavFile': u'/Users/lauragwilliams/Documents/experiments/b_p/BP_amb_phon/pre_tests/CV_categorisation/experiment_files/stimuli_wav/1_pai_tai_6.wav'}, {u'idx': 16, u'optionRight': u'P', u'blockNo': 6, u'optionLeft': u'T', u'stimNo': 2, u'continuumNo': 5, u'wavFile': u'/Users/lauragwilliams/Documents/experiments/b_p/BP_amb_phon/pre_tests/CV_categorisation/experiment_files/stimuli_wav/2_toh_poh_5.wav'}, {u'idx': 7, u'optionRight': u'T', u'blockNo': 7, u'optionLeft': u'P', u'stimNo': 1, u'continuumNo': 7, u'wavFile': u'/Users/lauragwilliams/Documents/experiments/b_p/BP_amb_phon/pre_tests/CV_categorisation/experiment_files/stimuli_wav/1_pai_tai_7.wav'}, {u'idx': 17, u'optionRight': u'P', u'blockNo': 7, u'optionLeft': u'T', u'stimNo': 2, u'continuumNo': 6, u'wavFile': u'/Users/lauragwilliams/Documents/experiments/b_p/BP_amb_phon/pre_tests/CV_categorisation/experiment_files/stimuli_wav/2_toh_poh_6.wav'}, {u'idx': 8, u'optionRight': u'T', u'blockNo': 8, u'optionLeft': u'P', u'stimNo': 1, u'continuumNo': 8, u'wavFile': u'/Users/lauragwilliams/Documents/experiments/b_p/BP_amb_phon/pre_tests/CV_categorisation/experiment_files/stimuli_wav/1_pai_tai_8.wav'}, {u'idx': 18, u'optionRight': u'P', u'blockNo': 8, u'optionLeft': u'T', u'stimNo': 2, u'continuumNo': 7, u'wavFile': u'/Users/lauragwilliams/Documents/experiments/b_p/BP_amb_phon/pre_tests/CV_categorisation/experiment_files/stimuli_wav/2_toh_poh_7.wav'}, {u'idx': 9, u'optionRight': u'T', u'blockNo': 9, u'optionLeft': u'P', u'stimNo': 1, u'continuumNo': 9, u'wavFile': u'/Users/lauragwilliams/Documents/experiments/b_p/BP_amb_phon/pre_tests/CV_categorisation/experiment_files/stimuli_wav/1_pai_tai_9.wav'}, {u'idx': 19, u'optionRight': u'P', u'blockNo': 9, u'optionLeft': u'T', u'stimNo': 2, u'continuumNo': 8, u'wavFile': u'/Users/lauragwilliams/Documents/experiments/b_p/BP_amb_phon/pre_tests/CV_categorisation/experiment_files/stimuli_wav/2_toh_poh_8.wav'}, {u'idx': 10, u'optionRight': u'T', u'blockNo': 10, u'optionLeft': u'P', u'stimNo': 1, u'continuumNo': 10, u'wavFile': u'/Users/lauragwilliams/Documents/experiments/b_p/BP_amb_phon/pre_tests/CV_categorisation/experiment_files/stimuli_wav/1_pai_tai_10.wav'}, {u'idx': 20, u'optionRight': u'P', u'blockNo': 10, u'optionLeft': u'T', u'stimNo': 2, u'continuumNo': 9, u'wavFile': u'/Users/lauragwilliams/Documents/experiments/b_p/BP_amb_phon/pre_tests/CV_categorisation/experiment_files/stimuli_wav/2_toh_poh_9.wav'}, {u'idx': 11, u'optionRight': u'T', u'blockNo': 11, u'optionLeft': u'P', u'stimNo': 1, u'continuumNo': 11, u'wavFile': u'/Users/lauragwilliams/Documents/experiments/b_p/BP_amb_phon/pre_tests/CV_categorisation/experiment_files/stimuli_wav/1_pai_tai_11.wav'}, {u'idx': 21, u'optionRight': u'P', u'blockNo': 11, u'optionLeft': u'T', u'stimNo': 2, u'continuumNo': 10, u'wavFile': u'/Users/lauragwilliams/Documents/experiments/b_p/BP_amb_phon/pre_tests/CV_categorisation/experiment_files/stimuli_wav/2_toh_poh_10.wav'}]" valType="str" updates="None"/>
+      <Param name="Selected rows" val="" valType="code" updates="None"/>
+    </LoopInitiator>
+    <Routine name="trial"/>
+    <LoopTerminator name="block1"/>
+    <Routine name="blockBreak"/>
+    <LoopInitiator loopType="TrialHandler" name="block2">
+      <Param name="conditionsFile" val="stimConditions.xlsx" valType="str" updates="None"/>
+      <Param name="name" val="block2" valType="code" updates="None"/>
+      <Param name="isTrials" val="True" valType="bool" updates="None"/>
+      <Param name="random seed" val="" valType="code" updates="None"/>
+      <Param name="loopType" val="random" valType="str" updates="None"/>
+      <Param name="nReps" val="1" valType="code" updates="None"/>
+      <Param name="endPoints" val="[0, 1]" valType="num" updates="None"/>
+      <Param name="conditions" val="[{u'idx': 1, u'optionRight': u'T', u'blockNo': 1, u'optionLeft': u'P', u'stimNo': 1, u'continuumNo': 1, u'wavFile': u'/Users/lauragwilliams/Documents/experiments/b_p/BP_amb_phon/pre_tests/CV_categorisation/experiment_files/stimuli_wav/1_pai_tai_1.wav'}, {u'idx': 22, u'optionRight': u'P', u'blockNo': 1, u'optionLeft': u'T', u'stimNo': 2, u'continuumNo': 11, u'wavFile': u'/Users/lauragwilliams/Documents/experiments/b_p/BP_amb_phon/pre_tests/CV_categorisation/experiment_files/stimuli_wav/2_toh_poh_11.wav'}, {u'idx': 2, u'optionRight': u'T', u'blockNo': 2, u'optionLeft': u'P', u'stimNo': 1, u'continuumNo': 2, u'wavFile': u'/Users/lauragwilliams/Documents/experiments/b_p/BP_amb_phon/pre_tests/CV_categorisation/experiment_files/stimuli_wav/1_pai_tai_2.wav'}, {u'idx': 12, u'optionRight': u'P', u'blockNo': 2, u'optionLeft': u'T', u'stimNo': 2, u'continuumNo': 1, u'wavFile': u'/Users/lauragwilliams/Documents/experiments/b_p/BP_amb_phon/pre_tests/CV_categorisation/experiment_files/stimuli_wav/2_toh_poh_1.wav'}, {u'idx': 3, u'optionRight': u'T', u'blockNo': 3, u'optionLeft': u'P', u'stimNo': 1, u'continuumNo': 3, u'wavFile': u'/Users/lauragwilliams/Documents/experiments/b_p/BP_amb_phon/pre_tests/CV_categorisation/experiment_files/stimuli_wav/1_pai_tai_3.wav'}, {u'idx': 13, u'optionRight': u'P', u'blockNo': 3, u'optionLeft': u'T', u'stimNo': 2, u'continuumNo': 2, u'wavFile': u'/Users/lauragwilliams/Documents/experiments/b_p/BP_amb_phon/pre_tests/CV_categorisation/experiment_files/stimuli_wav/2_toh_poh_2.wav'}, {u'idx': 4, u'optionRight': u'T', u'blockNo': 4, u'optionLeft': u'P', u'stimNo': 1, u'continuumNo': 4, u'wavFile': u'/Users/lauragwilliams/Documents/experiments/b_p/BP_amb_phon/pre_tests/CV_categorisation/experiment_files/stimuli_wav/1_pai_tai_4.wav'}, {u'idx': 14, u'optionRight': u'P', u'blockNo': 4, u'optionLeft': u'T', u'stimNo': 2, u'continuumNo': 3, u'wavFile': u'/Users/lauragwilliams/Documents/experiments/b_p/BP_amb_phon/pre_tests/CV_categorisation/experiment_files/stimuli_wav/2_toh_poh_3.wav'}, {u'idx': 5, u'optionRight': u'T', u'blockNo': 5, u'optionLeft': u'P', u'stimNo': 1, u'continuumNo': 5, u'wavFile': u'/Users/lauragwilliams/Documents/experiments/b_p/BP_amb_phon/pre_tests/CV_categorisation/experiment_files/stimuli_wav/1_pai_tai_5.wav'}, {u'idx': 15, u'optionRight': u'P', u'blockNo': 5, u'optionLeft': u'T', u'stimNo': 2, u'continuumNo': 4, u'wavFile': u'/Users/lauragwilliams/Documents/experiments/b_p/BP_amb_phon/pre_tests/CV_categorisation/experiment_files/stimuli_wav/2_toh_poh_4.wav'}, {u'idx': 6, u'optionRight': u'T', u'blockNo': 6, u'optionLeft': u'P', u'stimNo': 1, u'continuumNo': 6, u'wavFile': u'/Users/lauragwilliams/Documents/experiments/b_p/BP_amb_phon/pre_tests/CV_categorisation/experiment_files/stimuli_wav/1_pai_tai_6.wav'}, {u'idx': 16, u'optionRight': u'P', u'blockNo': 6, u'optionLeft': u'T', u'stimNo': 2, u'continuumNo': 5, u'wavFile': u'/Users/lauragwilliams/Documents/experiments/b_p/BP_amb_phon/pre_tests/CV_categorisation/experiment_files/stimuli_wav/2_toh_poh_5.wav'}, {u'idx': 7, u'optionRight': u'T', u'blockNo': 7, u'optionLeft': u'P', u'stimNo': 1, u'continuumNo': 7, u'wavFile': u'/Users/lauragwilliams/Documents/experiments/b_p/BP_amb_phon/pre_tests/CV_categorisation/experiment_files/stimuli_wav/1_pai_tai_7.wav'}, {u'idx': 17, u'optionRight': u'P', u'blockNo': 7, u'optionLeft': u'T', u'stimNo': 2, u'continuumNo': 6, u'wavFile': u'/Users/lauragwilliams/Documents/experiments/b_p/BP_amb_phon/pre_tests/CV_categorisation/experiment_files/stimuli_wav/2_toh_poh_6.wav'}, {u'idx': 8, u'optionRight': u'T', u'blockNo': 8, u'optionLeft': u'P', u'stimNo': 1, u'continuumNo': 8, u'wavFile': u'/Users/lauragwilliams/Documents/experiments/b_p/BP_amb_phon/pre_tests/CV_categorisation/experiment_files/stimuli_wav/1_pai_tai_8.wav'}, {u'idx': 18, u'optionRight': u'P', u'blockNo': 8, u'optionLeft': u'T', u'stimNo': 2, u'continuumNo': 7, u'wavFile': u'/Users/lauragwilliams/Documents/experiments/b_p/BP_amb_phon/pre_tests/CV_categorisation/experiment_files/stimuli_wav/2_toh_poh_7.wav'}, {u'idx': 9, u'optionRight': u'T', u'blockNo': 9, u'optionLeft': u'P', u'stimNo': 1, u'continuumNo': 9, u'wavFile': u'/Users/lauragwilliams/Documents/experiments/b_p/BP_amb_phon/pre_tests/CV_categorisation/experiment_files/stimuli_wav/1_pai_tai_9.wav'}, {u'idx': 19, u'optionRight': u'P', u'blockNo': 9, u'optionLeft': u'T', u'stimNo': 2, u'continuumNo': 8, u'wavFile': u'/Users/lauragwilliams/Documents/experiments/b_p/BP_amb_phon/pre_tests/CV_categorisation/experiment_files/stimuli_wav/2_toh_poh_8.wav'}, {u'idx': 10, u'optionRight': u'T', u'blockNo': 10, u'optionLeft': u'P', u'stimNo': 1, u'continuumNo': 10, u'wavFile': u'/Users/lauragwilliams/Documents/experiments/b_p/BP_amb_phon/pre_tests/CV_categorisation/experiment_files/stimuli_wav/1_pai_tai_10.wav'}, {u'idx': 20, u'optionRight': u'P', u'blockNo': 10, u'optionLeft': u'T', u'stimNo': 2, u'continuumNo': 9, u'wavFile': u'/Users/lauragwilliams/Documents/experiments/b_p/BP_amb_phon/pre_tests/CV_categorisation/experiment_files/stimuli_wav/2_toh_poh_9.wav'}, {u'idx': 11, u'optionRight': u'T', u'blockNo': 11, u'optionLeft': u'P', u'stimNo': 1, u'continuumNo': 11, u'wavFile': u'/Users/lauragwilliams/Documents/experiments/b_p/BP_amb_phon/pre_tests/CV_categorisation/experiment_files/stimuli_wav/1_pai_tai_11.wav'}, {u'idx': 21, u'optionRight': u'P', u'blockNo': 11, u'optionLeft': u'T', u'stimNo': 2, u'continuumNo': 10, u'wavFile': u'/Users/lauragwilliams/Documents/experiments/b_p/BP_amb_phon/pre_tests/CV_categorisation/experiment_files/stimuli_wav/2_toh_poh_10.wav'}]" valType="str" updates="None"/>
+      <Param name="Selected rows" val="5" valType="code" updates="None"/>
+    </LoopInitiator>
+    <Routine name="trial"/>
+    <LoopTerminator name="block2"/>
+    <Routine name="expEnd"/>
+  </Flow>
+</PsychoPy2experiment>

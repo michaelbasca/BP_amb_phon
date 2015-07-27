@@ -1,0 +1,5 @@
+optionRight,optionLeft,blockNo,idx,stimNo,continuumNo,wavFile,block1.thisRepN,block1.thisTrialN,block1.thisN,block1.thisIndex,instructionResp.keys,instructionResp.rt,trialResp.keys,trialResp.rt,date,frameRate,expName,session,participant,
+,,,,,,,,,,,1,0.686280965805,,,2015_Jul_21_1206,60.0564151468,bp_cv_pretest,001,1,
+P,T,8,18,2,7,/Users/lauragwilliams/Documents/experiments/b_p/BP_amb_phon/pre_tests/CV_categorisation/experiment_files/stimuli_wav/2_toh_poh_7.wav,0,0,0,15,,,2,0.782428979874,2015_Jul_21_1206,60.0564151468,bp_cv_pretest,001,1,
+P,T,7,17,2,6,/Users/lauragwilliams/Documents/experiments/b_p/BP_amb_phon/pre_tests/CV_categorisation/experiment_files/stimuli_wav/2_toh_poh_6.wav,0,1,1,13,,,2,0.69979095459,2015_Jul_21_1206,60.0564151468,bp_cv_pretest,001,1,
+P,T,6,16,2,5,/Users/lauragwilliams/Documents/experiments/b_p/BP_amb_phon/pre_tests/CV_categorisation/experiment_files/stimuli_wav/2_toh_poh_5.wav,0,2,2,11,,,1,0.549325942993,2015_Jul_21_1206,60.0564151468,bp_cv_pretest,001,1,

@@ -1,0 +1,72 @@
+0.4405 	WARNING 	Movie2 stim could not be imported and won't be available
+0.7341 	WARNING 	TextBox stim could not be imported and won't be available.
+0.7341 	WARNING 	TextBox Font Manager Found No Fonts.
+3.0544 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([ 0.,  0.,  0.]), colorSpace='rgb', fullscr=UNKNOWN, gamma=None, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor instance at 0xc3f2d50>, name='window1', pos=[0, 0], screen=0, size=array([1280,  800]), stereo=False, units=u'norm', useFBO=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+3.0544 	EXP 	window1: recordFrameIntervals = False
+3.2193 	EXP 	window1: recordFrameIntervals = True
+3.4025 	EXP 	window1: recordFrameIntervals = False
+3.4669 	EXP 	Created instructionText = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=u'white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font=u'Arial', fontFiles=[], height=0.1, italic=False, name='instructionText', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=u'These are the instructions', units=u'norm', win=Window(...), wrapWidth=1)
+3.4798 	EXP 	Created leftPhoneme = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=u'white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font=u'Arial', fontFiles=[], height=0.2, italic=False, name='leftPhoneme', opacity=1.0, ori=0, pos=array([-0.5,  0. ]), rgb=array([ 255.,  255.,  255.]), text=u'default text', units=u'norm', win=Window(...), wrapWidth=1)
+3.4862 	EXP 	Created rightPhoneme = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=u'white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font=u'Arial', fontFiles=[], height=0.2, italic=False, name='rightPhoneme', opacity=1.0, ori=0, pos=array([ 0.5,  0. ]), rgb=array([ 255.,  255.,  255.]), text=u'default text', units=u'norm', win=Window(...), wrapWidth=1)
+3.5384 	EXP 	Set  sound=A
+3.5384 	EXP 	Set Sound  volume=1.000
+3.5454 	EXP 	Created blockText = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=u'white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font=u'Arial', fontFiles=[], height=0.1, italic=False, name='blockText', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=u'default text', units=u'norm', win=Window(...), wrapWidth=1)
+3.5506 	EXP 	Created leftPhoneme = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=u'white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font=u'Arial', fontFiles=[], height=0.2, italic=False, name='leftPhoneme', opacity=1.0, ori=0, pos=array([-0.5,  0. ]), rgb=array([ 255.,  255.,  255.]), text=u'default text', units=u'norm', win=Window(...), wrapWidth=1)
+3.5557 	EXP 	Created rightPhoneme = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=u'white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font=u'Arial', fontFiles=[], height=0.2, italic=False, name='rightPhoneme', opacity=1.0, ori=0, pos=array([ 0.5,  0. ]), rgb=array([ 255.,  255.,  255.]), text=u'default text', units=u'norm', win=Window(...), wrapWidth=1)
+3.5778 	EXP 	Set  sound=A
+3.5778 	EXP 	Set Sound  volume=1.000
+3.6152 	EXP 	Created endText = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=u'white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font=u'Arial', fontFiles=[], height=0.1, italic=False, name='endText', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=1)
+3.6349 	EXP 	instructionText: autoDraw = True
+4.3007 	DATA 	Keypress: 1
+4.3514 	EXP 	Imported stimConditions.xlsx as conditions, 22 conditions, 7 params
+4.3518 	EXP 	Created sequence: random, trialTypes=22, nReps=1, seed=None
+4.3524 	EXP 	New trial (rep=0, index=0): {u'optionRight': u'P', u'optionLeft': u'T', u'blockNo': 8, u'idx': 18, u'stimNo': 2, u'continuumNo': 7, u'wavFile': u'/Users/lauragwilliams/Documents/experiments/b_p/BP_amb_phon/pre_tests/CV_categorisation/experiment_files/stimuli_wav/2_toh_poh_7.wav'}
+4.3591 	EXP 	Set  sound=/Users/lauragwilliams/Documents/experiments/b_p/BP_amb_phon/pre_tests/CV_categorisation/experiment_files/stimuli_wav/2_toh_poh_7.wav
+4.3592 	EXP 	window1: recordFrameIntervals = False
+4.3663 	EXP 	instructionText: autoDraw = False
+4.3663 	EXP 	leftPhoneme: text = u'T'
+4.3663 	EXP 	rightPhoneme: text = u'P'
+4.3664 	EXP 	window1: recordFrameIntervals = False
+4.8985 	EXP 	leftPhoneme: autoDraw = True
+4.8985 	EXP 	rightPhoneme: autoDraw = True
+5.3642 	EXP 	Sound  started
+6.1461 	DATA 	Keypress: 2
+6.1468 	EXP 	Sound  stopped
+6.1479 	EXP 	New trial (rep=0, index=1): {u'optionRight': u'P', u'optionLeft': u'T', u'blockNo': 7, u'idx': 17, u'stimNo': 2, u'continuumNo': 6, u'wavFile': u'/Users/lauragwilliams/Documents/experiments/b_p/BP_amb_phon/pre_tests/CV_categorisation/experiment_files/stimuli_wav/2_toh_poh_6.wav'}
+6.1557 	EXP 	Set  sound=/Users/lauragwilliams/Documents/experiments/b_p/BP_amb_phon/pre_tests/CV_categorisation/experiment_files/stimuli_wav/2_toh_poh_6.wav
+6.1557 	EXP 	window1: recordFrameIntervals = False
+6.1620 	EXP 	leftPhoneme: autoDraw = False
+6.1620 	EXP 	rightPhoneme: autoDraw = False
+6.1620 	EXP 	leftPhoneme: text = u'T'
+6.1620 	EXP 	rightPhoneme: text = u'P'
+6.1621 	EXP 	window1: recordFrameIntervals = False
+6.6941 	EXP 	leftPhoneme: autoDraw = True
+6.6941 	EXP 	rightPhoneme: autoDraw = True
+7.1593 	EXP 	Sound  started
+7.8587 	DATA 	Keypress: 2
+7.8592 	EXP 	Sound  stopped
+7.8600 	EXP 	New trial (rep=0, index=2): {u'optionRight': u'P', u'optionLeft': u'T', u'blockNo': 6, u'idx': 16, u'stimNo': 2, u'continuumNo': 5, u'wavFile': u'/Users/lauragwilliams/Documents/experiments/b_p/BP_amb_phon/pre_tests/CV_categorisation/experiment_files/stimuli_wav/2_toh_poh_5.wav'}
+7.8661 	EXP 	Set  sound=/Users/lauragwilliams/Documents/experiments/b_p/BP_amb_phon/pre_tests/CV_categorisation/experiment_files/stimuli_wav/2_toh_poh_5.wav
+7.8661 	EXP 	window1: recordFrameIntervals = False
+7.8747 	EXP 	leftPhoneme: autoDraw = False
+7.8747 	EXP 	rightPhoneme: autoDraw = False
+7.8747 	EXP 	leftPhoneme: text = u'T'
+7.8747 	EXP 	rightPhoneme: text = u'P'
+7.8749 	EXP 	window1: recordFrameIntervals = False
+8.3900 	EXP 	leftPhoneme: autoDraw = True
+8.3900 	EXP 	rightPhoneme: autoDraw = True
+8.8725 	EXP 	Sound  started
+9.4215 	DATA 	Keypress: 1
+9.4219 	EXP 	Sound  stopped
+9.4227 	EXP 	New trial (rep=0, index=3): {u'optionRight': u'T', u'optionLeft': u'P', u'blockNo': 10, u'idx': 10, u'stimNo': 1, u'continuumNo': 10, u'wavFile': u'/Users/lauragwilliams/Documents/experiments/b_p/BP_amb_phon/pre_tests/CV_categorisation/experiment_files/stimuli_wav/1_pai_tai_10.wav'}
+9.4290 	EXP 	Set  sound=/Users/lauragwilliams/Documents/experiments/b_p/BP_amb_phon/pre_tests/CV_categorisation/experiment_files/stimuli_wav/1_pai_tai_10.wav
+9.4290 	EXP 	window1: recordFrameIntervals = False
+9.4377 	EXP 	leftPhoneme: autoDraw = False
+9.4377 	EXP 	rightPhoneme: autoDraw = False
+9.4377 	EXP 	leftPhoneme: text = u'P'
+9.4377 	EXP 	rightPhoneme: text = u'T'
+9.4378 	EXP 	window1: recordFrameIntervals = False
+9.9695 	EXP 	leftPhoneme: autoDraw = True
+9.9695 	EXP 	rightPhoneme: autoDraw = True
+10.4352 	EXP 	Sound  started
+11.0013 	DATA 	Keypress: escape

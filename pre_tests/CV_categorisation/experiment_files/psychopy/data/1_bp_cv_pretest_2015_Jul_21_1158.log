@@ -1,0 +1,266 @@
+0.4401 	WARNING 	Movie2 stim could not be imported and won't be available
+0.7259 	WARNING 	TextBox stim could not be imported and won't be available.
+0.7259 	WARNING 	TextBox Font Manager Found No Fonts.
+3.0772 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([ 0.,  0.,  0.]), colorSpace='rgb', fullscr=UNKNOWN, gamma=None, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor instance at 0xc3bbbc0>, name='window1', pos=[0, 0], screen=0, size=array([1280,  800]), stereo=False, units=u'norm', useFBO=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+3.0772 	EXP 	window1: recordFrameIntervals = False
+3.2420 	EXP 	window1: recordFrameIntervals = True
+3.4252 	EXP 	window1: recordFrameIntervals = False
+3.4937 	EXP 	Created instructionText = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=u'white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font=u'Arial', fontFiles=[], height=0.1, italic=False, name='instructionText', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=u'These are the instructions', units=u'norm', win=Window(...), wrapWidth=1)
+3.5038 	EXP 	Created leftPhoneme = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=u'white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font=u'Arial', fontFiles=[], height=0.2, italic=False, name='leftPhoneme', opacity=1.0, ori=0, pos=array([-0.5,  0. ]), rgb=array([ 255.,  255.,  255.]), text=u'default text', units=u'norm', win=Window(...), wrapWidth=1)
+3.5092 	EXP 	Created rightPhoneme = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=u'white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font=u'Arial', fontFiles=[], height=0.2, italic=False, name='rightPhoneme', opacity=1.0, ori=0, pos=array([ 0.5,  0. ]), rgb=array([ 255.,  255.,  255.]), text=u'default text', units=u'norm', win=Window(...), wrapWidth=1)
+3.5622 	EXP 	Set  sound=A
+3.5623 	EXP 	Set Sound  volume=1.000
+3.5978 	EXP 	Created endText = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=u'white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font=u'Arial', fontFiles=[], height=0.1, italic=False, name='endText', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=1)
+3.6075 	EXP 	instructionText: autoDraw = True
+4.4729 	DATA 	Keypress: return
+5.3374 	DATA 	Keypress: return
+5.6366 	DATA 	Keypress: return
+5.9192 	DATA 	Keypress: return
+7.1332 	DATA 	Keypress: 1
+7.1832 	EXP 	Imported stimConditions.xlsx as conditions, 22 conditions, 7 params
+7.1836 	EXP 	Created sequence: random, trialTypes=22, nReps=1, seed=None
+7.1842 	EXP 	New trial (rep=0, index=0): {u'optionRight': u'T', u'optionLeft': u'P', u'blockNo': 1, u'idx': 1, u'stimNo': 1, u'continuumNo': 1, u'wavFile': u'/Users/lauragwilliams/Documents/experiments/b_p/BP_amb_phon/pre_tests/CV_categorisation/experiment_files/stimuli_wav/1_pai_tai_1.wav'}
+7.1907 	EXP 	Set  sound=/Users/lauragwilliams/Documents/experiments/b_p/BP_amb_phon/pre_tests/CV_categorisation/experiment_files/stimuli_wav/1_pai_tai_1.wav
+7.1908 	EXP 	window1: recordFrameIntervals = False
+7.1991 	EXP 	instructionText: autoDraw = False
+7.1991 	EXP 	leftPhoneme: text = u'P'
+7.1991 	EXP 	rightPhoneme: text = u'T'
+7.1992 	EXP 	window1: recordFrameIntervals = False
+7.7311 	EXP 	leftPhoneme: autoDraw = True
+7.7311 	EXP 	rightPhoneme: autoDraw = True
+8.1969 	EXP 	Sound  started
+8.8456 	DATA 	Keypress: 1
+8.8460 	EXP 	Sound  stopped
+8.8471 	EXP 	New trial (rep=0, index=1): {u'optionRight': u'P', u'optionLeft': u'T', u'blockNo': 6, u'idx': 16, u'stimNo': 2, u'continuumNo': 5, u'wavFile': u'/Users/lauragwilliams/Documents/experiments/b_p/BP_amb_phon/pre_tests/CV_categorisation/experiment_files/stimuli_wav/2_toh_poh_5.wav'}
+8.8715 	EXP 	Set  sound=/Users/lauragwilliams/Documents/experiments/b_p/BP_amb_phon/pre_tests/CV_categorisation/experiment_files/stimuli_wav/2_toh_poh_5.wav
+8.8716 	EXP 	window1: recordFrameIntervals = False
+8.8782 	EXP 	leftPhoneme: autoDraw = False
+8.8782 	EXP 	rightPhoneme: autoDraw = False
+8.8782 	EXP 	leftPhoneme: text = u'T'
+8.8782 	EXP 	rightPhoneme: text = u'P'
+8.8783 	EXP 	window1: recordFrameIntervals = False
+9.4106 	EXP 	leftPhoneme: autoDraw = True
+9.4106 	EXP 	rightPhoneme: autoDraw = True
+9.8595 	EXP 	Sound  started
+10.6914 	DATA 	Keypress: 1
+10.6918 	EXP 	Sound  stopped
+10.6926 	EXP 	New trial (rep=0, index=2): {u'optionRight': u'T', u'optionLeft': u'P', u'blockNo': 5, u'idx': 5, u'stimNo': 1, u'continuumNo': 5, u'wavFile': u'/Users/lauragwilliams/Documents/experiments/b_p/BP_amb_phon/pre_tests/CV_categorisation/experiment_files/stimuli_wav/1_pai_tai_5.wav'}
+10.6991 	EXP 	Set  sound=/Users/lauragwilliams/Documents/experiments/b_p/BP_amb_phon/pre_tests/CV_categorisation/experiment_files/stimuli_wav/1_pai_tai_5.wav
+10.6991 	EXP 	window1: recordFrameIntervals = False
+10.7074 	EXP 	leftPhoneme: autoDraw = False
+10.7074 	EXP 	rightPhoneme: autoDraw = False
+10.7074 	EXP 	leftPhoneme: text = u'P'
+10.7074 	EXP 	rightPhoneme: text = u'T'
+10.7075 	EXP 	window1: recordFrameIntervals = False
+11.2227 	EXP 	leftPhoneme: autoDraw = True
+11.2227 	EXP 	rightPhoneme: autoDraw = True
+11.7051 	EXP 	Sound  started
+12.8204 	DATA 	Keypress: 2
+12.8359 	EXP 	Sound  stopped
+12.8367 	EXP 	New trial (rep=0, index=3): {u'optionRight': u'T', u'optionLeft': u'P', u'blockNo': 2, u'idx': 2, u'stimNo': 1, u'continuumNo': 2, u'wavFile': u'/Users/lauragwilliams/Documents/experiments/b_p/BP_amb_phon/pre_tests/CV_categorisation/experiment_files/stimuli_wav/1_pai_tai_2.wav'}
+12.8433 	EXP 	Set  sound=/Users/lauragwilliams/Documents/experiments/b_p/BP_amb_phon/pre_tests/CV_categorisation/experiment_files/stimuli_wav/1_pai_tai_2.wav
+12.8433 	EXP 	window1: recordFrameIntervals = False
+12.8523 	EXP 	leftPhoneme: autoDraw = False
+12.8523 	EXP 	rightPhoneme: autoDraw = False
+12.8523 	EXP 	leftPhoneme: text = u'P'
+12.8523 	EXP 	rightPhoneme: text = u'T'
+12.8524 	EXP 	window1: recordFrameIntervals = False
+13.3843 	EXP 	leftPhoneme: autoDraw = True
+13.3843 	EXP 	rightPhoneme: autoDraw = True
+13.8500 	EXP 	Sound  started
+14.5654 	DATA 	Keypress: 1
+14.5658 	EXP 	Sound  stopped
+14.5665 	EXP 	New trial (rep=0, index=4): {u'optionRight': u'P', u'optionLeft': u'T', u'blockNo': 2, u'idx': 12, u'stimNo': 2, u'continuumNo': 1, u'wavFile': u'/Users/lauragwilliams/Documents/experiments/b_p/BP_amb_phon/pre_tests/CV_categorisation/experiment_files/stimuli_wav/2_toh_poh_1.wav'}
+14.5723 	EXP 	Set  sound=/Users/lauragwilliams/Documents/experiments/b_p/BP_amb_phon/pre_tests/CV_categorisation/experiment_files/stimuli_wav/2_toh_poh_1.wav
+14.5723 	EXP 	window1: recordFrameIntervals = False
+14.5813 	EXP 	leftPhoneme: autoDraw = False
+14.5813 	EXP 	rightPhoneme: autoDraw = False
+14.5813 	EXP 	leftPhoneme: text = u'T'
+14.5813 	EXP 	rightPhoneme: text = u'P'
+14.5814 	EXP 	window1: recordFrameIntervals = False
+15.1133 	EXP 	leftPhoneme: autoDraw = True
+15.1133 	EXP 	rightPhoneme: autoDraw = True
+15.5791 	EXP 	Sound  started
+16.1950 	DATA 	Keypress: 1
+16.1953 	EXP 	Sound  stopped
+16.1961 	EXP 	New trial (rep=0, index=5): {u'optionRight': u'T', u'optionLeft': u'P', u'blockNo': 10, u'idx': 10, u'stimNo': 1, u'continuumNo': 10, u'wavFile': u'/Users/lauragwilliams/Documents/experiments/b_p/BP_amb_phon/pre_tests/CV_categorisation/experiment_files/stimuli_wav/1_pai_tai_10.wav'}
+16.2023 	EXP 	Set  sound=/Users/lauragwilliams/Documents/experiments/b_p/BP_amb_phon/pre_tests/CV_categorisation/experiment_files/stimuli_wav/1_pai_tai_10.wav
+16.2023 	EXP 	window1: recordFrameIntervals = False
+16.2109 	EXP 	leftPhoneme: autoDraw = False
+16.2109 	EXP 	rightPhoneme: autoDraw = False
+16.2109 	EXP 	leftPhoneme: text = u'P'
+16.2109 	EXP 	rightPhoneme: text = u'T'
+16.2110 	EXP 	window1: recordFrameIntervals = False
+16.7262 	EXP 	leftPhoneme: autoDraw = True
+16.7262 	EXP 	rightPhoneme: autoDraw = True
+17.2086 	EXP 	Sound  started
+18.0237 	DATA 	Keypress: 2
+18.0240 	EXP 	Sound  stopped
+18.0245 	EXP 	New trial (rep=0, index=6): {u'optionRight': u'T', u'optionLeft': u'P', u'blockNo': 7, u'idx': 7, u'stimNo': 1, u'continuumNo': 7, u'wavFile': u'/Users/lauragwilliams/Documents/experiments/b_p/BP_amb_phon/pre_tests/CV_categorisation/experiment_files/stimuli_wav/1_pai_tai_7.wav'}
+18.0296 	EXP 	Set  sound=/Users/lauragwilliams/Documents/experiments/b_p/BP_amb_phon/pre_tests/CV_categorisation/experiment_files/stimuli_wav/1_pai_tai_7.wav
+18.0296 	EXP 	window1: recordFrameIntervals = False
+18.0399 	EXP 	leftPhoneme: autoDraw = False
+18.0399 	EXP 	rightPhoneme: autoDraw = False
+18.0399 	EXP 	leftPhoneme: text = u'P'
+18.0399 	EXP 	rightPhoneme: text = u'T'
+18.0401 	EXP 	window1: recordFrameIntervals = False
+18.5717 	EXP 	leftPhoneme: autoDraw = True
+18.5717 	EXP 	rightPhoneme: autoDraw = True
+19.0376 	EXP 	Sound  started
+19.7198 	DATA 	Keypress: 2
+19.7203 	EXP 	Sound  stopped
+19.7211 	EXP 	New trial (rep=0, index=7): {u'optionRight': u'P', u'optionLeft': u'T', u'blockNo': 5, u'idx': 15, u'stimNo': 2, u'continuumNo': 4, u'wavFile': u'/Users/lauragwilliams/Documents/experiments/b_p/BP_amb_phon/pre_tests/CV_categorisation/experiment_files/stimuli_wav/2_toh_poh_4.wav'}
+19.7496 	EXP 	Set  sound=/Users/lauragwilliams/Documents/experiments/b_p/BP_amb_phon/pre_tests/CV_categorisation/experiment_files/stimuli_wav/2_toh_poh_4.wav
+19.7497 	EXP 	window1: recordFrameIntervals = False
+19.7690 	EXP 	leftPhoneme: autoDraw = False
+19.7690 	EXP 	rightPhoneme: autoDraw = False
+19.7690 	EXP 	leftPhoneme: text = u'T'
+19.7690 	EXP 	rightPhoneme: text = u'P'
+19.7692 	EXP 	window1: recordFrameIntervals = False
+20.2845 	EXP 	leftPhoneme: autoDraw = True
+20.2845 	EXP 	rightPhoneme: autoDraw = True
+20.7334 	EXP 	Sound  started
+21.5819 	DATA 	Keypress: 1
+21.5822 	EXP 	Sound  stopped
+21.5830 	EXP 	New trial (rep=0, index=8): {u'optionRight': u'T', u'optionLeft': u'P', u'blockNo': 8, u'idx': 8, u'stimNo': 1, u'continuumNo': 8, u'wavFile': u'/Users/lauragwilliams/Documents/experiments/b_p/BP_amb_phon/pre_tests/CV_categorisation/experiment_files/stimuli_wav/1_pai_tai_8.wav'}
+21.5893 	EXP 	Set  sound=/Users/lauragwilliams/Documents/experiments/b_p/BP_amb_phon/pre_tests/CV_categorisation/experiment_files/stimuli_wav/1_pai_tai_8.wav
+21.5893 	EXP 	window1: recordFrameIntervals = False
+21.5980 	EXP 	leftPhoneme: autoDraw = False
+21.5980 	EXP 	rightPhoneme: autoDraw = False
+21.5980 	EXP 	leftPhoneme: text = u'P'
+21.5980 	EXP 	rightPhoneme: text = u'T'
+21.5981 	EXP 	window1: recordFrameIntervals = False
+22.1300 	EXP 	leftPhoneme: autoDraw = True
+22.1300 	EXP 	rightPhoneme: autoDraw = True
+22.5957 	EXP 	Sound  started
+23.3279 	DATA 	Keypress: 2
+23.3283 	EXP 	Sound  stopped
+23.3291 	EXP 	New trial (rep=0, index=9): {u'optionRight': u'T', u'optionLeft': u'P', u'blockNo': 3, u'idx': 3, u'stimNo': 1, u'continuumNo': 3, u'wavFile': u'/Users/lauragwilliams/Documents/experiments/b_p/BP_amb_phon/pre_tests/CV_categorisation/experiment_files/stimuli_wav/1_pai_tai_3.wav'}
+23.3363 	EXP 	Set  sound=/Users/lauragwilliams/Documents/experiments/b_p/BP_amb_phon/pre_tests/CV_categorisation/experiment_files/stimuli_wav/1_pai_tai_3.wav
+23.3363 	EXP 	window1: recordFrameIntervals = False
+23.3437 	EXP 	leftPhoneme: autoDraw = False
+23.3437 	EXP 	rightPhoneme: autoDraw = False
+23.3437 	EXP 	leftPhoneme: text = u'P'
+23.3437 	EXP 	rightPhoneme: text = u'T'
+23.3438 	EXP 	window1: recordFrameIntervals = False
+23.8759 	EXP 	leftPhoneme: autoDraw = True
+23.8759 	EXP 	rightPhoneme: autoDraw = True
+24.3414 	EXP 	Sound  started
+25.3728 	DATA 	Keypress: 1
+25.3732 	EXP 	Sound  stopped
+25.3741 	EXP 	New trial (rep=0, index=10): {u'optionRight': u'P', u'optionLeft': u'T', u'blockNo': 9, u'idx': 19, u'stimNo': 2, u'continuumNo': 8, u'wavFile': u'/Users/lauragwilliams/Documents/experiments/b_p/BP_amb_phon/pre_tests/CV_categorisation/experiment_files/stimuli_wav/2_toh_poh_8.wav'}
+25.3807 	EXP 	Set  sound=/Users/lauragwilliams/Documents/experiments/b_p/BP_amb_phon/pre_tests/CV_categorisation/experiment_files/stimuli_wav/2_toh_poh_8.wav
+25.3808 	EXP 	window1: recordFrameIntervals = False
+25.3889 	EXP 	leftPhoneme: autoDraw = False
+25.3889 	EXP 	rightPhoneme: autoDraw = False
+25.3889 	EXP 	leftPhoneme: text = u'T'
+25.3889 	EXP 	rightPhoneme: text = u'P'
+25.3891 	EXP 	window1: recordFrameIntervals = False
+25.9042 	EXP 	leftPhoneme: autoDraw = True
+25.9042 	EXP 	rightPhoneme: autoDraw = True
+26.3866 	EXP 	Sound  started
+27.5008 	DATA 	Keypress: 1
+27.5011 	EXP 	Sound  stopped
+27.5017 	EXP 	New trial (rep=0, index=11): {u'optionRight': u'T', u'optionLeft': u'P', u'blockNo': 9, u'idx': 9, u'stimNo': 1, u'continuumNo': 9, u'wavFile': u'/Users/lauragwilliams/Documents/experiments/b_p/BP_amb_phon/pre_tests/CV_categorisation/experiment_files/stimuli_wav/1_pai_tai_9.wav'}
+27.5075 	EXP 	Set  sound=/Users/lauragwilliams/Documents/experiments/b_p/BP_amb_phon/pre_tests/CV_categorisation/experiment_files/stimuli_wav/1_pai_tai_9.wav
+27.5076 	EXP 	window1: recordFrameIntervals = False
+27.5170 	EXP 	leftPhoneme: autoDraw = False
+27.5170 	EXP 	rightPhoneme: autoDraw = False
+27.5170 	EXP 	leftPhoneme: text = u'P'
+27.5170 	EXP 	rightPhoneme: text = u'T'
+27.5172 	EXP 	window1: recordFrameIntervals = False
+28.0492 	EXP 	leftPhoneme: autoDraw = True
+28.0492 	EXP 	rightPhoneme: autoDraw = True
+28.5147 	EXP 	Sound  started
+29.2638 	DATA 	Keypress: 2
+29.2641 	EXP 	Sound  stopped
+29.2649 	EXP 	New trial (rep=0, index=12): {u'optionRight': u'T', u'optionLeft': u'P', u'blockNo': 4, u'idx': 4, u'stimNo': 1, u'continuumNo': 4, u'wavFile': u'/Users/lauragwilliams/Documents/experiments/b_p/BP_amb_phon/pre_tests/CV_categorisation/experiment_files/stimuli_wav/1_pai_tai_4.wav'}
+29.2711 	EXP 	Set  sound=/Users/lauragwilliams/Documents/experiments/b_p/BP_amb_phon/pre_tests/CV_categorisation/experiment_files/stimuli_wav/1_pai_tai_4.wav
+29.2711 	EXP 	window1: recordFrameIntervals = False
+29.2795 	EXP 	leftPhoneme: autoDraw = False
+29.2795 	EXP 	rightPhoneme: autoDraw = False
+29.2795 	EXP 	leftPhoneme: text = u'P'
+29.2795 	EXP 	rightPhoneme: text = u'T'
+29.2796 	EXP 	window1: recordFrameIntervals = False
+29.7949 	EXP 	leftPhoneme: autoDraw = True
+29.7949 	EXP 	rightPhoneme: autoDraw = True
+30.2774 	EXP 	Sound  started
+31.1092 	DATA 	Keypress: 1
+31.1095 	EXP 	Sound  stopped
+31.1103 	EXP 	New trial (rep=0, index=13): {u'optionRight': u'P', u'optionLeft': u'T', u'blockNo': 8, u'idx': 18, u'stimNo': 2, u'continuumNo': 7, u'wavFile': u'/Users/lauragwilliams/Documents/experiments/b_p/BP_amb_phon/pre_tests/CV_categorisation/experiment_files/stimuli_wav/2_toh_poh_7.wav'}
+31.1169 	EXP 	Set  sound=/Users/lauragwilliams/Documents/experiments/b_p/BP_amb_phon/pre_tests/CV_categorisation/experiment_files/stimuli_wav/2_toh_poh_7.wav
+31.1169 	EXP 	window1: recordFrameIntervals = False
+31.1252 	EXP 	leftPhoneme: autoDraw = False
+31.1252 	EXP 	rightPhoneme: autoDraw = False
+31.1252 	EXP 	leftPhoneme: text = u'T'
+31.1252 	EXP 	rightPhoneme: text = u'P'
+31.1253 	EXP 	window1: recordFrameIntervals = False
+31.6572 	EXP 	leftPhoneme: autoDraw = True
+31.6572 	EXP 	rightPhoneme: autoDraw = True
+32.1229 	EXP 	Sound  started
+32.9049 	DATA 	Keypress: 1
+32.9053 	EXP 	Sound  stopped
+32.9060 	EXP 	New trial (rep=0, index=14): {u'optionRight': u'P', u'optionLeft': u'T', u'blockNo': 3, u'idx': 13, u'stimNo': 2, u'continuumNo': 2, u'wavFile': u'/Users/lauragwilliams/Documents/experiments/b_p/BP_amb_phon/pre_tests/CV_categorisation/experiment_files/stimuli_wav/2_toh_poh_2.wav'}
+32.9124 	EXP 	Set  sound=/Users/lauragwilliams/Documents/experiments/b_p/BP_amb_phon/pre_tests/CV_categorisation/experiment_files/stimuli_wav/2_toh_poh_2.wav
+32.9124 	EXP 	window1: recordFrameIntervals = False
+32.9208 	EXP 	leftPhoneme: autoDraw = False
+32.9208 	EXP 	rightPhoneme: autoDraw = False
+32.9208 	EXP 	leftPhoneme: text = u'T'
+32.9208 	EXP 	rightPhoneme: text = u'P'
+32.9210 	EXP 	window1: recordFrameIntervals = False
+33.4529 	EXP 	leftPhoneme: autoDraw = True
+33.4529 	EXP 	rightPhoneme: autoDraw = True
+33.9186 	EXP 	Sound  started
+34.5842 	DATA 	Keypress: 1
+34.5846 	EXP 	Sound  stopped
+34.5854 	EXP 	New trial (rep=0, index=15): {u'optionRight': u'P', u'optionLeft': u'T', u'blockNo': 10, u'idx': 20, u'stimNo': 2, u'continuumNo': 9, u'wavFile': u'/Users/lauragwilliams/Documents/experiments/b_p/BP_amb_phon/pre_tests/CV_categorisation/experiment_files/stimuli_wav/2_toh_poh_9.wav'}
+34.5917 	EXP 	Set  sound=/Users/lauragwilliams/Documents/experiments/b_p/BP_amb_phon/pre_tests/CV_categorisation/experiment_files/stimuli_wav/2_toh_poh_9.wav
+34.5918 	EXP 	window1: recordFrameIntervals = False
+34.6001 	EXP 	leftPhoneme: autoDraw = False
+34.6001 	EXP 	rightPhoneme: autoDraw = False
+34.6001 	EXP 	leftPhoneme: text = u'T'
+34.6001 	EXP 	rightPhoneme: text = u'P'
+34.6002 	EXP 	window1: recordFrameIntervals = False
+35.1156 	EXP 	leftPhoneme: autoDraw = True
+35.1156 	EXP 	rightPhoneme: autoDraw = True
+35.5980 	EXP 	Sound  started
+36.2800 	DATA 	Keypress: 2
+36.2803 	EXP 	Sound  stopped
+36.2811 	EXP 	New trial (rep=0, index=16): {u'optionRight': u'P', u'optionLeft': u'T', u'blockNo': 7, u'idx': 17, u'stimNo': 2, u'continuumNo': 6, u'wavFile': u'/Users/lauragwilliams/Documents/experiments/b_p/BP_amb_phon/pre_tests/CV_categorisation/experiment_files/stimuli_wav/2_toh_poh_6.wav'}
+36.2880 	EXP 	Set  sound=/Users/lauragwilliams/Documents/experiments/b_p/BP_amb_phon/pre_tests/CV_categorisation/experiment_files/stimuli_wav/2_toh_poh_6.wav
+36.2881 	EXP 	window1: recordFrameIntervals = False
+36.2962 	EXP 	leftPhoneme: autoDraw = False
+36.2962 	EXP 	rightPhoneme: autoDraw = False
+36.2962 	EXP 	leftPhoneme: text = u'T'
+36.2962 	EXP 	rightPhoneme: text = u'P'
+36.2963 	EXP 	window1: recordFrameIntervals = False
+36.8280 	EXP 	leftPhoneme: autoDraw = True
+36.8280 	EXP 	rightPhoneme: autoDraw = True
+37.2939 	EXP 	Sound  started
+37.9260 	DATA 	Keypress: 2
+37.9265 	EXP 	Sound  stopped
+37.9273 	EXP 	New trial (rep=0, index=17): {u'optionRight': u'T', u'optionLeft': u'P', u'blockNo': 6, u'idx': 6, u'stimNo': 1, u'continuumNo': 6, u'wavFile': u'/Users/lauragwilliams/Documents/experiments/b_p/BP_amb_phon/pre_tests/CV_categorisation/experiment_files/stimuli_wav/1_pai_tai_6.wav'}
+37.9334 	EXP 	Set  sound=/Users/lauragwilliams/Documents/experiments/b_p/BP_amb_phon/pre_tests/CV_categorisation/experiment_files/stimuli_wav/1_pai_tai_6.wav
+37.9335 	EXP 	window1: recordFrameIntervals = False
+37.9422 	EXP 	leftPhoneme: autoDraw = False
+37.9422 	EXP 	rightPhoneme: autoDraw = False
+37.9422 	EXP 	leftPhoneme: text = u'P'
+37.9422 	EXP 	rightPhoneme: text = u'T'
+37.9424 	EXP 	window1: recordFrameIntervals = False
+38.4743 	EXP 	leftPhoneme: autoDraw = True
+38.4743 	EXP 	rightPhoneme: autoDraw = True
+38.9400 	EXP 	Sound  started
+39.7400 	DATA 	Keypress: 2
+39.7550 	EXP 	Sound  stopped
+39.7558 	EXP 	New trial (rep=0, index=18): {u'optionRight': u'P', u'optionLeft': u'T', u'blockNo': 11, u'idx': 21, u'stimNo': 2, u'continuumNo': 10, u'wavFile': u'/Users/lauragwilliams/Documents/experiments/b_p/BP_amb_phon/pre_tests/CV_categorisation/experiment_files/stimuli_wav/2_toh_poh_10.wav'}
+39.7739 	EXP 	Set  sound=/Users/lauragwilliams/Documents/experiments/b_p/BP_amb_phon/pre_tests/CV_categorisation/experiment_files/stimuli_wav/2_toh_poh_10.wav
+39.7740 	EXP 	window1: recordFrameIntervals = False
+39.7878 	EXP 	leftPhoneme: autoDraw = False
+39.7878 	EXP 	rightPhoneme: autoDraw = False
+39.7878 	EXP 	leftPhoneme: text = u'T'
+39.7878 	EXP 	rightPhoneme: text = u'P'
+39.7880 	EXP 	window1: recordFrameIntervals = False
+40.3033 	EXP 	leftPhoneme: autoDraw = True
+40.3033 	EXP 	rightPhoneme: autoDraw = True
+40.7687 	EXP 	Sound  started
+41.1683 	DATA 	Keypress: escape

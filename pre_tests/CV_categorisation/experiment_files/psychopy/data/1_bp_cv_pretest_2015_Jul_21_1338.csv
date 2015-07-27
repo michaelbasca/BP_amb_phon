@@ -1,0 +1,4 @@
+optionRight,optionLeft,blockNo,idx,stimNo,continuumNo,wavFile,block1.thisRepN,block1.thisTrialN,block1.thisN,block1.thisIndex,instructionResp.keys,instructionResp.rt,trialResp.keys,trialResp.rt,session,participant,frameRate,list,expName,date,
+,,,,,,,,,,,1,0.577743053436,,,001,1,60.0358700491,1,bp_cv_pretest,2015_Jul_21_1338,
+T,P,2,2,1,2,/Users/lauragwilliams/Documents/experiments/b_p/BP_amb_phon/pre_tests/CV_categorisation/experiment_files/stimuli_wav/1_pai_tai_2.wav,0,0,0,1,,,1,0.699142932892,001,1,60.0358700491,1,bp_cv_pretest,2015_Jul_21_1338,
+P,T,3,13,2,2,/Users/lauragwilliams/Documents/experiments/b_p/BP_amb_phon/pre_tests/CV_categorisation/experiment_files/stimuli_wav/2_toh_poh_2.wav,0,1,1,12,,,2,0.599848031998,001,1,60.0358700491,1,bp_cv_pretest,2015_Jul_21_1338,
